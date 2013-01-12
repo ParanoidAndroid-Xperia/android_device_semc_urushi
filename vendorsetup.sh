@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo cm_urushi-eng
+add_lunch_combo cm_urushi-userdebug
