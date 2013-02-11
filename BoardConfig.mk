@@ -2,8 +2,8 @@
 -include vendor/semc/urushi/BoardConfigVendor.mk
 
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
-TARGET_KERNEL_CONFIG := cyanogen_urushi_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+TARGET_KERNEL_CONFIG := pa_urushi_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7.3
 
 TARGET_RECOVERY_INITRC := device/semc/urushi/recovery/init.rc
 
