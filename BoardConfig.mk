@@ -3,7 +3,8 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/config
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/semc/urushi/bluetooth/vnd_urushi.txt
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
