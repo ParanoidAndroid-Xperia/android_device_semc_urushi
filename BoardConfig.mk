@@ -7,9 +7,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/semc/urushi/bluetooth/vnd_urushi.txt
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
-TARGET_KERNEL_CONFIG := cyanogen_urushi_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+TARGET_KERNEL_CONFIG := cm_urushi_defconfig
+
 
 TARGET_RECOVERY_INITRC := device/semc/urushi/recovery/init.rc
 
