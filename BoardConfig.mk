@@ -7,7 +7,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/semc/urushi/bluetooth/vnd_urushi.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_urushi_defconfig
+TARGET_KERNEL_CONFIG := nAa_urushi_defconfig
 
 
 TARGET_RECOVERY_INITRC := device/semc/urushi/recovery/init.rc
