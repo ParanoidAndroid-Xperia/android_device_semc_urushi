@@ -21,7 +21,7 @@ SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
 
 # Kernel
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-linaro
 
 # inherit from the proprietary version
 -include vendor/semc/urushi/BoardConfigVendor.mk
