@@ -16,5 +16,3 @@
 
 add_lunch_combo cm_urushi-eng
 add_lunch_combo cm_urushi-userdebug
-
-ln -s ../../../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/ ../../../prebuilt/linux-x86/toolchain/arm-eabi-4.6
