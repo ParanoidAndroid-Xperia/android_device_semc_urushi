@@ -4,11 +4,11 @@
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/semc/urushi/bluetooth/vnd_urushi.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := nAa_urushi_defconfig
-
+TARGET_KERNEL_CONFIG := irii_urushi_defconfig
+TARGET_KERNEL_SOURCE := kernel/semc/msm7x30_caf
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
 
 TARGET_RECOVERY_INITRC := device/semc/urushi/recovery/init.rc
 
@@ -19,9 +19,6 @@ SOMC_CFG_SENSORS_PROXIMITY_APDS9700 := yes
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ST18i,ST18a,urushi
-
-# Kernel
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7-linaro
 
 # inherit from the proprietary version
 -include vendor/semc/urushi/BoardConfigVendor.mk

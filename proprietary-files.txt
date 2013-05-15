@@ -79,27 +79,12 @@ etc/firmware/vidc_720p_h264_enc_mc.fw
 etc/firmware/vidc_720p_mp4_dec_mc.fw
 etc/firmware/vidc_720p_mp4_enc_mc.fw
 etc/firmware/vidc_720p_vc1_dec_mc.fw
-etc/firmware/yamato_pfp.fw
-etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
 bin/nvimport
 bin/calibrator
 lib/libnl.so
 etc/firmware/wl1271-fw-multirole-roc.bin
-
-## Adreno 200 files
-lib/libC2D2.so
-lib/libOpenVG.so
-lib/libgsl.so
-lib/libsc-a2xx.so
-lib/libc2d2_z180.so
-lib/egl/eglsubAndroid.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libq3dtools_adreno200.so
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv2_adreno200.so
-lib/egl/libGLESv2S3D_adreno200.so
 
 ## Other libraries and proprietary binaries
 lib/libaudioalsa.so
@@ -112,13 +97,3 @@ lib/libmiscta.so
 etc/firmware/touch_module_id_0x01.img
 etc/firmware/touch_module_id_0x02.img
 etc/firmware/touch_module_id_0x11.img
-
-#ANT+
-lib/libanthal.so
-etc/permissions/com.dsi.ant.antradio_library.xml
-etc/permissions/com.sonyericsson.suquashi.xml
-app/antstatenotifer.apk
-app/AntHalService.apk
-app/antradioservice.apk
-framework/com.dsi.ant.antradio_library.jar
-framework/com.sonyericsson.suquashi.jar
